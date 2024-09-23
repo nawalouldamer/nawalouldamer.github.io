@@ -1,4 +1,7 @@
 ### Hi there 👋, I am Nawal OULD AMER
+
+
+popop
 I design and build machine learning scientist. Currently, I'm an Lead Research Scientist at Airbus. Outside of work:
 - 🔭 I’m working on **Building NLP Systems**
 - 🌱 I’m learning **How to Build ML Systems at Scale**
