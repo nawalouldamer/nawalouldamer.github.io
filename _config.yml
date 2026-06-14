@@ -1,55 +1,67 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Nawal OULD AMER
+title: "Nawal OULD AMER"
+title_separator: "-"
+subtitle: "Lead Research Scientist · AI & NLP"
 email: noa@nawalouldamer.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  nawaloa
+description: >-
+  Lead Research Scientist at Airbus, working on AI, NLP, and ML systems at scale.
+  Passionate about building robust and scalable language technologies.
+baseurl: ""
+url: "https://nawalouldamer.com"
+github_username: nawaloa
 
-# Build settings
-theme: minima
+# Theme — remote_theme works both locally and on GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"  # "default", "air", "aqua", "contrast", "dark", "dirt", "mint", "neon", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Nawal OULD AMER"
+  bio: "Lead Research Scientist at Airbus. Building NLP & ML systems at scale."
+  location: "France"
+  email: noa@nawalouldamer.com
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nawaloa"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:noa@nawalouldamer.com"
+
+# Site footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nawaloa"
+
+# Reading Files
+include:
+  - _pages
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
