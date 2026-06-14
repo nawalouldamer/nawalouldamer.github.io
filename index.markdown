@@ -1,17 +1,16 @@
 ---
 layout: home
-author_profile: true
+author_profile: false
+entries_layout: list
 ---
 
-## Welcome
+<div class="home-intro" markdown="1">
+## Hi, I'm Nawal OULD AMER.
 
-I'm **Nawal OULD AMER**, an AI Scientist and Lead Research Scientist at [Airbus](https://www.airbus.com), where I work on building NLP and ML systems at scale.
+I'm a Lead Research Scientist at [Airbus](https://www.airbus.com), working on AI, NLP, and ML systems at scale. I'm interested in bridging research and production — building language models that are reliable in safety-critical environments.
 
-My work sits at the intersection of research and production: designing language models, scaling them to real-world constraints, and making them reliable in safety-critical environments.
-
-**Currently focused on:**
-- Building and deploying large-scale NLP pipelines
-- ML systems design and reliability at scale
-- Collaborative research on NLP for industrial applications
-
-Feel free to browse my [publications](/publications/) or [learn more about me](/about/).
+- [Write](/blog/) about NLP systems, ML at scale, and applied AI research.
+- Working on large-scale NLP pipelines and ML system reliability at Airbus.
+- Looking to [collaborate](/about/) on NLP systems at scale.
+- Reach me at [noa@nawalouldamer.com](mailto:noa@nawalouldamer.com).
+</div>
