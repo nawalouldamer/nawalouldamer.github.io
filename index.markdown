@@ -5,12 +5,14 @@ entries_layout: list
 ---
 
 <div class="home-intro" markdown="1">
-## Hi, I'm Nawal OULD AMER.
-
-I'm a Lead Research Scientist at [Airbus](https://www.airbus.com), working on AI, NLP, and ML systems at scale. I'm interested in bridging research and production — building language models that are reliable in safety-critical environments.
-
-- [Write](/blog/) about NLP systems, ML at scale, and applied AI research.
-- Working on large-scale NLP pipelines and ML system reliability at Airbus.
+<div>
+        <p>Hi there! I'm Nawal Ould Amer. I work on making AI systems trustworthy. Currently a Research Scientist at Airbus, focused on uncertainty quantification and reliability for LLM-based systems.</p>
+        <p>I'm particularly interested in the gap between what looks good on a benchmark and what you can actually trust in a safety-critical environment. Lately I've been exploring model uncertainty from the inside, through mechanistic interpretability.
+        </p>
+  </div>
+On my spare time:
+- I'm building a personal multi-agent assistant, currently just for myself, running locally, that helps me track and connect things I'd otherwise forget (food, training, ideas, etc.).
+- Sharing on my [blog](/blog/) all my learnings.
 - Looking to [collaborate](/about/) on NLP systems at scale.
 - Reach me at [noa@nawalouldamer.com](mailto:noa@nawalouldamer.com).
 </div>
